@@ -99,7 +99,7 @@ public class CardDeliveryTest {
         $$(".icon-button__content").get(1).click();
     }
 
-/*
+
     /////////TEST FAIL///////////////////
     @Test
     void shouldCardDelivery5() {
@@ -181,14 +181,6 @@ public class CardDeliveryTest {
                         cardDelivery.date()));
         $$(".icon-button__content").get(1).click();
     }
-*/
 
- /*   @Test
-    void date() {
-        CardDelivery cardDelivery = new CardDelivery();
-        String expected = "21.09.2022";
-        String actual = cardDelivery.date();
-        assertEquals(expected, actual);
 
-    }*/
 }
